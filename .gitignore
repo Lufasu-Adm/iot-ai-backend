@@ -1,0 +1,7 @@
+influxdb_data/
+mosquitto/data/
+mosquitto/log/
+
+__pycache__/
+*.pyc
+.env
