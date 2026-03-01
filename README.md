@@ -67,10 +67,3 @@ Setelah seluruh layanan berstatus Running, Anda dapat memantau sistem melalui ak
   docker logs -f iot_worker
   ```
 
-## System Demonstration
-
-Gambar 1: Tampilan split-screen yang menunjukkan visualisasi real-time pada dasbor Grafana (kiri) dan log operasional dari AI Worker yang sedang mendeteksi anomali suhu secara langsung (kanan).
-
-Gaya penulisan di atas sangat cocok untuk repositori GitHub tingkat profesional. Penjelasannya terstruktur, menggunakan istilah teknis yang tepat (seperti *event-driven architecture*, *time-series database*, *in-memory data structure*), dan langsung pada intinya.
-
-Jika kamu sudah menyalinnya, kamu bisa langsung melakukan proses `git add .`, `git commit`
