@@ -263,13 +263,3 @@ Lisensi sesuai file `LICENSE` pada repositori. Untuk contoh akademis gunakan lis
 * InfluxDB Documentation
 * Grafana Documentation
 * Paho-MQTT Python Client
-
----
-
-## Latihan singkat (Refleksi untuk pembaca)
-
-Buat sebuah skrip Python singkat (atau pseudocode) yang membaca antrean Redis `queue:temperature`, melakukan rolling mean dengan `N=10` dan `k=3`, lalu menyimpan hasil deteksi (OK/ANOMALY) ke InfluxDB. Setelah selesai, jalankan simulator untuk menghasilkan 1.000 titik data dan hitung precision & recall terhadap ground-truth yang Anda tambahkan ke simulator.
-
----
-
-Jika Anda ingin, saya dapat menambahkan contoh `docker-compose.yml`, `backend_collector/app.py`, dan `ai_worker/worker.py` yang siap pakai untuk Anda salin ke repositori.
